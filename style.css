@@ -16,6 +16,12 @@ body{
     align-items: center;
     font-family: 'sofia';
 }
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .text{
     display: flex;
     flex-direction: column;
@@ -46,5 +52,11 @@ body{
 .count{
     color: rgba(57, 57, 57, 0.739);
     user-select: none;
+    display: none;
+}
+.result{
+    color: rgba(57, 57, 57, 0.739);
+    user-select: none;
+    margin: 0;
     display: none;
 }
